@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- CSS links -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <title>mixitup jquery plugin</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>attribute-selectors</h1>
+      <div class="controls">
+        <button type="button" class="control" data-filter="all">All</button>
+        <button type="button" class="control" data-filter=".green">Green</button>
+        <button type="button" class="control" data-filter=".blue">Blue</button>
+        <button type="button" class="control" data-filter=".pink">Pink</button>
+        <button type="button" class="control" data-filter="none">None</button>
+        <button type="button" class="control" data-sort="default:asc">Asc</button>
+        <button type="button" class="control" data-sort="default:desc">Desc</button>
+      </div>
+      <div class="container" data-ref="mixitup-container">
+        <div class="item green" data-ref="mixitup-target"></div>
+        <div class="item green" data-ref="mixitup-target"></div>
+        <div class="item blue" data-ref="mixitup-target"></div>
+        <div class="item pink" data-ref="mixitup-target"></div>
+        <div class="item green" data-ref="mixitup-target"></div>
+        <div class="item blue" data-ref="mixitup-target"></div>
+        <div class="item pink" data-ref="mixitup-target"></div>
+        <div class="item blue" data-ref="mixitup-target"></div>
+        <div class="gap"></div>
+        <div class="gap"></div>
+        <div class="gap"></div>
+      </div>
+    </div>
+    <!-- JS links -->
+    <script src="js/jquery.min.js"></script>
+    <script src="vendor/mixitup/mixitup.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
